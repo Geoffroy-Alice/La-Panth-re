@@ -444,6 +444,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 18px;
 }
 
 .btn {
@@ -654,6 +655,12 @@ a {
     font-weight: 400;
 }
 
+label {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
 .description_agence,
 .citation,
 .name,
@@ -685,7 +692,9 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
 }
 
 .text-center{
@@ -699,7 +708,6 @@ p {
 .h1 {
     font-size: 22px;
     font-family: "Open Sans";
-    font-weight: bold;
 }
 
 .cta-hero {
@@ -717,7 +725,7 @@ p {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.4em;
 }
 
@@ -745,6 +753,8 @@ h4 {
 
 .white {
     color: #000000!important;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
