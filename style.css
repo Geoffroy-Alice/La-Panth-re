@@ -37,6 +37,8 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .bloc .container {
@@ -150,7 +152,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #FFFFFF;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -195,12 +197,12 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #000000;
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: #000000;
 }
 
 .l-bloc .icon-round,
@@ -231,29 +233,12 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
+    font-weight: 400;;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: #000000;
 }
 
 .d-bloc .panel .btn-wire,
@@ -285,6 +270,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    font-weight: 700;
 }
 
 .navbar {
@@ -353,6 +339,7 @@ a:hover {
 
 .nav-invert .navbar .nav {
     float: left;
+    color: #000000;
 }
 
 .nav-invert .navbar-header,
@@ -372,7 +359,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #000000;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -438,13 +425,11 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    color: #000000;
 }
 
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
-    font-size: 18px;
 }
 
 .btn {
@@ -652,19 +637,13 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-}
-
-label {
-    font-size: 16px;
     color: #000000;
-    font-weight: bold;
 }
 
 .description_agence,
 .citation,
 .name,
-.description{
+.description {
     color: #000000;
     font-weight: bold;
 }
@@ -675,6 +654,7 @@ label {
 
 .hero-bloc-text {
     font-size: 38px;
+
 }
 
 .hero-bloc-text-sub {
@@ -693,26 +673,22 @@ label {
 
 p {
     font-size: 18px;
-    color: #000000;
     text-align: center;
 }
 
-.text-center{
-    color: #000000;
-}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
 .h1 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Open Sans";
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color:#000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -724,13 +700,17 @@ p {
     margin: auto auto auto auto;
 }
 
+.col-sm-3:hover{
+    color: #FFFFFF;
+}
+
 h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -740,6 +720,11 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    font-weight: 400;
+}
+
+h1 {
+    color: #000000;
 }
 
 h4 {
@@ -752,9 +737,8 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
-    font-size: 20px;
-    font-weight: bold;
+    color: #000000;
+    font-weight: 700;
 }
 
 .portfolio-thumb {
@@ -793,22 +777,32 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
+    font-weight: 700;
+}
+
+.tc-white2{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.tc-white3{
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
-    font-size: 18px;
+    color: #000000;
+    font-size: 20px;
 }
 
 .ltc-white:hover {
@@ -846,8 +840,8 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
